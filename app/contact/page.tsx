@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { Section } from "@/components/Section";
+import { site } from "@/content/site";
 
 export const metadata = {
   title: "Contact | Miguel Delgadillo",
@@ -39,7 +41,14 @@ export default function ContactPage() {
       <section className="mx-auto max-w-6xl px-5 pb-20">
         <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-2xl font-semibold text-slate-950">Contact details</h2>
-          <p className="mt-3 text-slate-700">Add email, LinkedIn, and GitHub links here before publishing.</p>
+          <div className="mt-5 grid gap-3 text-slate-700 sm:grid-cols-2">
+            <Link className="rounded-2xl border border-slate-200 p-4 hover:border-blue-300" href={site.github}>
+              GitHub portfolio repo
+            </Link>
+            <div className="rounded-2xl border border-slate-200 p-4">LinkedIn: add public profile URL</div>
+            <div className="rounded-2xl border border-slate-200 p-4">Email: add preferred contact email</div>
+            <div className="rounded-2xl border border-slate-200 p-4">Resume: available on request for now</div>
+          </div>
         </div>
       </section>
     </main>

@@ -1,6 +1,7 @@
+import Link from "next/link";
 import { Badge } from "@/components/Badge";
 import { Section } from "@/components/Section";
-import { skills } from "@/content/site";
+import { site, skills } from "@/content/site";
 
 export const metadata = {
   title: "Resume | Miguel Delgadillo",
@@ -39,10 +40,34 @@ export default function ResumePage() {
         </div>
       </Section>
 
+      <Section title="Portfolio proof">
+        <div className="grid gap-4 md:grid-cols-2">
+          <Link
+            href="/projects/solar-field-sales-intelligence-tracker"
+            className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:border-blue-300"
+          >
+            <h2 className="text-xl font-semibold text-slate-950">Solar Field Sales Intelligence Tracker</h2>
+            <p className="mt-3 leading-7 text-slate-700">
+              Mobile-first field-sales tracking app case study focused on CRM thinking, dashboards,
+              and automation-ready data.
+            </p>
+          </Link>
+          <Link
+            href={site.github}
+            className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm hover:border-blue-300"
+          >
+            <h2 className="text-xl font-semibold text-slate-950">GitHub repository</h2>
+            <p className="mt-3 leading-7 text-slate-700">
+              Public portfolio source code and project documentation.
+            </p>
+          </Link>
+        </div>
+      </Section>
+
       <Section title="Resume PDF">
-        <div className="rounded-3xl border border-dashed border-slate-300 bg-white p-6 text-slate-700">
-          Add a downloadable resume PDF at <code className="rounded bg-slate-100 px-2 py-1">public/resume.pdf</code>,
-          then link it here.
+        <div className="rounded-3xl border border-slate-200 bg-white p-6 text-slate-700 shadow-sm">
+          A downloadable PDF resume will be added here. For now, this page summarizes my current positioning,
+          project proof, and skill areas.
         </div>
       </Section>
     </main>

@@ -6,7 +6,7 @@ export const site = {
   location: "San Diego, CA",
   email: "",
   linkedin: "",
-  github: "",
+  github: "https://github.com/SocialMediaPractices/miguel-ai-portfolio",
 };
 
 export const skills = [
