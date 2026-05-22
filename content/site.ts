@@ -4,7 +4,7 @@ export const site = {
   positioning:
     "AI Workflow Systems Builder | Multi-Agent Orchestration | Automation & LLM Integrations | OpenClaw | Hermes | n8n",
   location: "San Diego, CA",
-  email: "",
+  email: "goordo_m15@hotmail.com",
   linkedin: "",
   github: "https://github.com/SocialMediaPractices/miguel-ai-portfolio",
 };

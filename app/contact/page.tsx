@@ -42,12 +42,16 @@ export default function ContactPage() {
         <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-2xl font-semibold text-slate-950">Contact details</h2>
           <div className="mt-5 grid gap-3 text-slate-700 sm:grid-cols-2">
+            <Link className="rounded-2xl border border-slate-200 p-4 hover:border-blue-300" href={`mailto:${site.email}`}>
+              Email: {site.email}
+            </Link>
             <Link className="rounded-2xl border border-slate-200 p-4 hover:border-blue-300" href={site.github}>
               GitHub portfolio repo
             </Link>
+            <Link className="rounded-2xl border border-slate-200 p-4 hover:border-blue-300" href="/resume.pdf">
+              Download resume PDF
+            </Link>
             <div className="rounded-2xl border border-slate-200 p-4">LinkedIn: add public profile URL</div>
-            <div className="rounded-2xl border border-slate-200 p-4">Email: add preferred contact email</div>
-            <div className="rounded-2xl border border-slate-200 p-4">Resume: available on request for now</div>
           </div>
         </div>
       </section>

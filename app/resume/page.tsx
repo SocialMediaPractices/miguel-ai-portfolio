@@ -66,8 +66,16 @@ export default function ResumePage() {
 
       <Section title="Resume PDF">
         <div className="rounded-3xl border border-slate-200 bg-white p-6 text-slate-700 shadow-sm">
-          A downloadable PDF resume will be added here. For now, this page summarizes my current positioning,
-          project proof, and skill areas.
+          <p className="leading-7">
+            Download my current resume as a PDF. The portfolio case study adds more detail on my
+            AI workflow systems and field-sales tracking project.
+          </p>
+          <Link
+            href="/resume.pdf"
+            className="mt-5 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800"
+          >
+            Download Resume PDF
+          </Link>
         </div>
       </Section>
     </main>
