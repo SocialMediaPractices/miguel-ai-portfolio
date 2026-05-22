@@ -1,5 +1,5 @@
 import { Badge } from "@/components/Badge";
-import { ScreenshotPlaceholder } from "@/components/ScreenshotPlaceholder";
+import { CaseStudyScreenshot } from "@/components/CaseStudyScreenshot";
 import { Section } from "@/components/Section";
 import { solarFeatures } from "@/content/site";
 
@@ -79,16 +79,16 @@ export default function SolarTrackerCaseStudy() {
 
       <Section eyebrow="Screenshots" title="Redacted/demo screenshots to add before publishing.">
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <ScreenshotPlaceholder title="Daily summary dashboard" />
-          <ScreenshotPlaceholder title="Goal progress and key metrics" />
-          <ScreenshotPlaceholder title="Customer engagement entry" />
-          <ScreenshotPlaceholder title="Status and timeline" />
-          <ScreenshotPlaceholder title="Stats graph / weekly averages" />
-          <ScreenshotPlaceholder title="Objection and sentiment categories" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/daily-summary.svg" title="Daily summary dashboard" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/goal-progress.svg" title="Goal progress and key metrics" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/engagement-entry.svg" title="Customer engagement entry" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/status-timeline.svg" title="Status and timeline" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/stats-graph.svg" title="Stats graph / weekly averages" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/sentiments-objections.svg" title="Objection and sentiment categories" />
         </div>
         <p className="mt-5 text-sm leading-6 text-slate-500">
-          Screenshots should use demo data or be fully redacted. Do not publish customer names,
-          phone numbers, addresses, or private notes.
+          These are public-safe demo/redacted assets. Real customer names, phone numbers,
+          addresses, and private notes are not included.
         </p>
       </Section>
 
