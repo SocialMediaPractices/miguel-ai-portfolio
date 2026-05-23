@@ -1,3 +1,4 @@
+import { CaseStudyScreenshot } from "@/components/CaseStudyScreenshot";
 import { Section } from "@/components/Section";
 
 export const metadata = {
@@ -20,6 +21,10 @@ export default function ArchitecturePage() {
           </p>
         </div>
       </section>
+
+      <Section title="Solar tracker workflow architecture">
+        <CaseStudyScreenshot src="/diagrams/solar-tracker-architecture.svg" title="Solar tracker workflow architecture" />
+      </Section>
 
       <Section title="Core workflow pattern">
         <div className="rounded-3xl bg-slate-950 p-6 font-mono text-sm leading-8 text-white">

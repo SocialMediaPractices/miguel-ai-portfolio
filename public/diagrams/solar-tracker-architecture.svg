@@ -1,0 +1,16 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" rx="48" fill="#0f172a"/>
+  <text x="90" y="95" font-family="Arial" font-size="42" font-weight="700" fill="#ffffff">Solar Field Sales Intelligence Tracker Architecture</text>
+  <text x="90" y="135" font-family="Arial" font-size="22" fill="#cbd5e1">Field activity → structured records → dashboard review → future AI coaching</text>
+  <defs><style>.box{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}.t{font-family:Arial;font-size:24px;font-weight:700;fill:#0f172a}.s{font-family:Arial;font-size:18px;fill:#475569}.a{stroke:#60a5fa;stroke-width:6;marker-end:url(#m)}</style><marker id="m" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#60a5fa"/></marker></defs>
+  <rect class="box" x="90" y="230" width="250" height="150" rx="28"/><text class="t" x="125" y="285">Field Interaction</text><text class="s" x="125" y="322">People engaged</text><text class="s" x="125" y="350">Roof conversations</text>
+  <rect class="box" x="420" y="230" width="250" height="150" rx="28"/><text class="t" x="455" y="285">Mobile Entry</text><text class="s" x="455" y="322">Status · sentiment</text><text class="s" x="455" y="350">Objections · demo data</text>
+  <rect class="box" x="750" y="230" width="250" height="150" rx="28"/><text class="t" x="785" y="285">Structured Records</text><text class="s" x="785" y="322">CRM-style fields</text><text class="s" x="785" y="350">Store/location context</text>
+  <rect class="box" x="1080" y="230" width="250" height="150" rx="28"/><text class="t" x="1115" y="285">Dashboard</text><text class="s" x="1115" y="322">Daily summary</text><text class="s" x="1115" y="350">Weekly averages</text>
+  <path class="a" d="M345 305 H410"/><path class="a" d="M675 305 H740"/><path class="a" d="M1005 305 H1070"/>
+  <rect class="box" x="255" y="530" width="270" height="160" rx="28"/><text class="t" x="292" y="585">Performance Review</text><text class="s" x="292" y="625">Conversion signals</text><text class="s" x="292" y="653">Follow-up discipline</text>
+  <rect class="box" x="600" y="530" width="270" height="160" rx="28"/><text class="t" x="637" y="585">Automation Hooks</text><text class="s" x="637" y="625">Reminders</text><text class="s" x="637" y="653">CRM updates</text>
+  <rect class="box" x="945" y="530" width="270" height="160" rx="28"/><text class="t" x="982" y="585">Future AI Layer</text><text class="s" x="982" y="625">Lead scoring</text><text class="s" x="982" y="653">Sales coaching</text>
+  <path class="a" d="M1205 385 C1205 455 1080 470 1080 520"/><path class="a" d="M530 610 H590"/><path class="a" d="M875 610 H935"/>
+  <text x="90" y="820" font-family="Arial" font-size="20" fill="#cbd5e1">Independent personal project · Not an official Sunrun product · Customer data excluded from public assets</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1200" height="800" rx="42" fill="#0f172a"/>
+      <rect x="48" y="48" width="1104" height="704" rx="36" fill="#f8fafc"/>
+      <rect x="80" y="82" width="1040" height="84" rx="28" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="122" cy="124" r="18" fill="#2563eb"/>
+      <text x="158" y="118" font-family="Arial" font-size="22" font-weight="700" fill="#0f172a">Solar Field Sales Intelligence Tracker</text>
+      <text x="158" y="146" font-family="Arial" font-size="15" fill="#64748b">Demo data · privacy-safe portfolio asset</text>
+      <text x="80" y="196" font-family="Arial" font-size="34" font-weight="700" fill="#0f172a">Goal Progress</text>
+      <text x="80" y="348" font-family="Arial" font-size="20" fill="#475569">Daily goals make the workflow measurable while the rep is still in the field.</text>
+      
+        <rect x="80" y="210" width="180" height="118" rx="24" fill="#ffffff" stroke="#d7dee8"/>
+        <text x="100" y="250" font-family="Arial" font-size="18" fill="#64748b">Goal</text>
+        <text x="100" y="295" font-family="Arial" font-size="38" font-weight="700" fill="#0f172a">50</text>
+        <rect x="285" y="210" width="180" height="118" rx="24" fill="#ffffff" stroke="#d7dee8"/>
+        <text x="305" y="250" font-family="Arial" font-size="18" fill="#64748b">Actual</text>
+        <text x="305" y="295" font-family="Arial" font-size="38" font-weight="700" fill="#0f172a">42</text>
+        <rect x="490" y="210" width="180" height="118" rx="24" fill="#ffffff" stroke="#d7dee8"/>
+        <text x="510" y="250" font-family="Arial" font-size="18" fill="#64748b">Gap</text>
+        <text x="510" y="295" font-family="Arial" font-size="38" font-weight="700" fill="#0f172a">8</text>
+        <rect x="695" y="210" width="180" height="118" rx="24" fill="#ffffff" stroke="#d7dee8"/>
+        <text x="715" y="250" font-family="Arial" font-size="18" fill="#64748b">Rate</text>
+        <text x="715" y="295" font-family="Arial" font-size="38" font-weight="700" fill="#0f172a">84%</text>
+        <rect x="900" y="210" width="180" height="118" rx="24" fill="#ffffff" stroke="#d7dee8"/>
+        <text x="920" y="250" font-family="Arial" font-size="18" fill="#64748b">Booked</text>
+        <text x="920" y="295" font-family="Arial" font-size="38" font-weight="700" fill="#0f172a">3</text>
+      
+        <rect x="80" y="385" width="1040" height="64" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="110" y="424" font-family="Arial" font-size="22" font-weight="700" fill="#0f172a">People engaged</text>
+        <text x="820" y="424" font-family="Arial" font-size="20" fill="#475569">42 of 50</text>
+        <rect x="110" y="434" width="760" height="6" rx="3" fill="#2563eb" opacity="0.75"/>
+        <rect x="80" y="467" width="1040" height="64" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="110" y="506" font-family="Arial" font-size="22" font-weight="700" fill="#0f172a">Pitch target</text>
+        <text x="820" y="506" font-family="Arial" font-size="20" fill="#475569">11 of 15</text>
+        <rect x="110" y="516" width="560" height="6" rx="3" fill="#2563eb" opacity="0.75"/>
+        <rect x="80" y="549" width="1040" height="64" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
+        <text x="110" y="588" font-family="Arial" font-size="22" font-weight="700" fill="#0f172a">Appointment target</text>
+        <text x="820" y="588" font-family="Arial" font-size="20" fill="#475569">3 of 4</text>
+        <rect x="110" y="598" width="690" height="6" rx="3" fill="#2563eb" opacity="0.75"/>
+      <rect x="80" y="708" width="312" height="34" rx="17" fill="#0f172a"/>
+      <text x="104" y="731" font-family="Arial" font-size="17" font-weight="700" fill="#ffffff">FAKE DEMO DATA — NO CUSTOMER INFO</text>
+    </svg>

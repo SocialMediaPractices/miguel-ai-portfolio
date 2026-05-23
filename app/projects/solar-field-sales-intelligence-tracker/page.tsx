@@ -79,17 +79,21 @@ export default function SolarTrackerCaseStudy() {
 
       <Section eyebrow="Screenshots" title="Redacted/demo screenshots to add before publishing.">
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/daily-summary.svg" title="Daily summary dashboard" />
-          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/goal-progress.svg" title="Goal progress and key metrics" />
-          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/engagement-entry.svg" title="Customer engagement entry" />
-          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/status-timeline.svg" title="Status and timeline" />
-          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/stats-graph.svg" title="Stats graph / weekly averages" />
-          <CaseStudyScreenshot src="/screenshots/solar-tracker/redacted/sentiments-objections.svg" title="Objection and sentiment categories" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/daily-summary.svg" title="Daily summary dashboard" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/goal-progress.svg" title="Goal progress and key metrics" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/engagement-entry.svg" title="Customer engagement entry" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/status-timeline.svg" title="Status and timeline" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/stats-graph.svg" title="Stats graph / weekly averages" />
+          <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/sentiments-objections.svg" title="Objection and sentiment categories" />
         </div>
         <p className="mt-5 text-sm leading-6 text-slate-500">
           These are public-safe demo/redacted assets. Real customer names, phone numbers,
           addresses, and private notes are not included.
         </p>
+      </Section>
+
+      <Section eyebrow="Architecture" title="How the workflow turns field activity into sales intelligence.">
+        <CaseStudyScreenshot src="/diagrams/solar-tracker-architecture.svg" title="Solar tracker workflow architecture" />
       </Section>
 
       <Section eyebrow="Features" title="The app tracks the operational signals that matter in a field-sales day.">
