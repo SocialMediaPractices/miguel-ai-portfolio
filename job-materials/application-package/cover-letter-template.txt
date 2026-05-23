@@ -1,0 +1,15 @@
+Hi [Hiring Team],
+
+I’m applying for the [Role] position because it matches the kind of practical AI implementation work I’m focused on: turning real business workflows into structured data, dashboards, internal tools, and automation-ready systems.
+
+My strongest proof is my Solar Field Sales Intelligence Tracker, a live portfolio case study based on retail field-sales operations. I built it to capture daily activity, customer engagement, roof conversations, objections, sentiments, leads, appointments, and follow-up status in a structured way. I also added a CLI prototype for demo data, summaries, and CSV export, plus related read-only workflow tooling around authorized SunrunOne sessions to inspect workflow signals safely without exposing secrets or customer data.
+
+I’m not positioning myself as an ML researcher. I’m an AI workflow systems builder: I can map messy business processes, design usable tools, work with LLM integrations and automation concepts, and keep human review and privacy boundaries in place.
+
+Portfolio: https://miguel-ai-portfolio.vercel.app
+Resume: https://miguel-ai-portfolio.vercel.app/resume.pdf
+Case study: https://miguel-ai-portfolio.vercel.app/projects/solar-field-sales-intelligence-tracker
+GitHub: https://github.com/SocialMediaPractices/miguel-ai-portfolio
+
+Best,
+Miguel Delgadillo

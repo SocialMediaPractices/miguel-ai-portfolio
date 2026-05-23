@@ -1,0 +1,6 @@
+Hi [Name] — I’m Miguel, an AI Workflow Systems Builder in San Diego. I’m looking for roles around AI implementation, workflow automation, sales ops, CRM/internal tools, or LLM integrations.
+
+My portfolio shows a live field-sales workflow tracker case study, a resume PDF, architecture notes, and GitHub repo:
+https://miguel-ai-portfolio.vercel.app
+
+I’d be interested if you’re hiring for practical AI/automation roles where the work is turning business processes into usable tools, dashboards, and automation-ready workflows.

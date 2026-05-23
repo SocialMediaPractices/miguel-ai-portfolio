@@ -54,15 +54,15 @@ Open:
 http://localhost:3000
 ```
 
-## Asset Checklist Before Publishing
+## Public-safe demo assets
 
-Add redacted/demo screenshots under:
+Demo screenshots are stored under:
 
 ```text
 public/screenshots/solar-tracker/
 ```
 
-Recommended screenshot set:
+Current screenshot set:
 
 1. Daily summary dashboard
 2. Goal progress and key metrics
@@ -71,7 +71,7 @@ Recommended screenshot set:
 5. Stats graph / weekly averages
 6. Objection and sentiment categories
 
-Do not publish:
+Privacy rule: do not publish:
 
 - Real customer names
 - Phone numbers
@@ -80,7 +80,7 @@ Do not publish:
 - Account credentials
 - Private repo/deployment URLs
 
-Use demo data whenever possible.
+Use demo data whenever possible. The live case study currently uses public-safe demo SVGs, not customer screenshots.
 
 ## CLI Prototype
 
@@ -104,6 +104,27 @@ npm run linkedin -- all
 ```
 
 Generated drafts are written to `exports/linkedin/`.
+
+
+## Application Package
+
+Primary links for recruiters and applications:
+
+- Portfolio: https://miguel-ai-portfolio.vercel.app
+- Resume PDF: https://miguel-ai-portfolio.vercel.app/resume.pdf
+- Flagship case study: https://miguel-ai-portfolio.vercel.app/projects/solar-field-sales-intelligence-tracker
+- Architecture page: https://miguel-ai-portfolio.vercel.app/architecture
+- GitHub repo: https://github.com/SocialMediaPractices/miguel-ai-portfolio
+
+Best-fit role titles:
+
+- AI Implementation Specialist
+- AI Automation Specialist
+- Workflow Automation Specialist
+- Sales Operations Analyst / Coordinator with AI tooling
+- RevOps / CRM Automation Associate
+- AI Operations Assistant / Coordinator
+- LLM Integrations / Internal Tools Assistant
 
 ## Deployment
 

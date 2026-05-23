@@ -77,7 +77,7 @@ export default function SolarTrackerCaseStudy() {
         </div>
       </Section>
 
-      <Section eyebrow="Screenshots" title="Redacted/demo screenshots to add before publishing.">
+      <Section eyebrow="Screenshots" title="Public-safe demo screenshots.">
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/daily-summary.svg" title="Daily summary dashboard" />
           <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/goal-progress.svg" title="Goal progress and key metrics" />
@@ -87,8 +87,8 @@ export default function SolarTrackerCaseStudy() {
           <CaseStudyScreenshot src="/screenshots/solar-tracker/demo/sentiments-objections.svg" title="Objection and sentiment categories" />
         </div>
         <p className="mt-5 text-sm leading-6 text-slate-500">
-          These are public-safe demo/redacted assets. Real customer names, phone numbers,
-          addresses, and private notes are not included.
+          These are public-safe demo assets based on the workflow. Real customer names, phone numbers,
+          addresses, private notes, and account data are not included.
         </p>
       </Section>
 
