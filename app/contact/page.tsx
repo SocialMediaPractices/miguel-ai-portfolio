@@ -51,7 +51,9 @@ export default function ContactPage() {
             <Link className="rounded-2xl border border-slate-200 p-4 hover:border-blue-300" href="/resume.pdf">
               Download resume PDF
             </Link>
-            <div className="rounded-2xl border border-slate-200 p-4">LinkedIn: add public profile URL</div>
+            <Link className="rounded-2xl border border-slate-200 p-4 hover:border-blue-300" href={site.linkedin}>
+              LinkedIn profile
+            </Link>
           </div>
         </div>
       </section>
