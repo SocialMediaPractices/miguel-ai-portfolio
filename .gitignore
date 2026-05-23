@@ -43,3 +43,7 @@ next-env.d.ts
 
 # generated LinkedIn drafts
 /exports/linkedin/
+
+# generated job-search/application drafts
+/exports/*.txt
+/exports/*.md
