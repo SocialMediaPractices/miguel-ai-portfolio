@@ -118,6 +118,12 @@ export default function SolarTrackerCaseStudy() {
             performance views. The design makes the workflow automation-ready because the same
             structured fields could later connect to reminders, CRM updates, lead scoring, or AI coaching.
           </p>
+          <p>
+            I also added a small local CLI prototype to the repository. It can seed demo records,
+            add activity entries, list recent interactions, generate summaries, and export CSV data.
+            This keeps the portfolio honest: it demonstrates the workflow logic without pretending
+            the project is a production CRM.
+          </p>
         </div>
       </Section>
 

@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "tracker": "node cli/solar-tracker.mjs",
+    "tracker:seed": "node cli/solar-tracker.mjs seed",
+    "tracker:summary": "node cli/solar-tracker.mjs summary --all",
+    "tracker:export": "node cli/solar-tracker.mjs export --out exports/solar-tracker-demo.csv"
   },
   "dependencies": {
     "next": "16.2.6",

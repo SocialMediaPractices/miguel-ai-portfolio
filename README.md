@@ -82,6 +82,18 @@ Do not publish:
 
 Use demo data whenever possible.
 
+## CLI Prototype
+
+This repo includes a small local CLI prototype for the Solar Field Sales Intelligence Tracker case study.
+
+```bash
+npm run tracker -- seed
+npm run tracker -- summary --all
+npm run tracker -- export --out exports/solar-tracker-demo.csv
+```
+
+See `cli/README.md` for commands and privacy notes. Use demo data only.
+
 ## Deployment
 
 Deploy with Vercel by importing this GitHub repo and using the default Next.js settings.
