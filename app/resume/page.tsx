@@ -49,7 +49,7 @@ export default function ResumePage() {
             <h2 className="text-xl font-semibold text-slate-950">Solar Field Sales Intelligence Tracker</h2>
             <p className="mt-3 leading-7 text-slate-700">
               Mobile-first field-sales tracking app case study focused on CRM thinking, dashboards,
-              and automation-ready data.
+              automation-ready data, and related SunrunOne CLI/API workflow tooling.
             </p>
           </Link>
           <Link

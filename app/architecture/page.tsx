@@ -37,6 +37,27 @@ export default function ArchitecturePage() {
         </div>
       </Section>
 
+      <Section title="CLI/API workflow layer">
+        <div className="grid gap-5 md:grid-cols-2">
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-semibold">Authorized workflow inspection</h2>
+            <p className="mt-3 leading-7 text-slate-700">
+              For the SunrunOne-related work, I built local read-only CLI/API tooling around my
+              authorized session to inspect profile state, navigation, store context, and appointment
+              workflow signals where access allowed.
+            </p>
+          </div>
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-semibold">AI-ready tool surface</h2>
+            <p className="mt-3 leading-7 text-slate-700">
+              The same pattern can expose safe MCP-style tools to an AI operator: check status,
+              map workflows, summarize signals, and support human decisions without publishing
+              secrets, customer records, or unauthorized data.
+            </p>
+          </div>
+        </div>
+      </Section>
+
       <Section title="Local vs. cloud model routing">
         <div className="grid gap-5 md:grid-cols-2">
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">

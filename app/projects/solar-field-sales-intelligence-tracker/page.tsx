@@ -92,6 +92,37 @@ export default function SolarTrackerCaseStudy() {
         </p>
       </Section>
 
+      <Section eyebrow="Related technical work" title="SunrunOne CLI/API workflow tooling added a deeper technical layer.">
+        <div className="grid gap-8 lg:grid-cols-[1fr_0.9fr]">
+          <div className="max-w-3xl space-y-5 leading-8 text-slate-700">
+            <p>
+              Alongside the tracker, I built local tooling around my authorized SunrunOne work
+              session to understand the workflow surface behind day-to-day field-sales operations.
+              This included an unofficial, read-only CLI/API wrapper and MCP-style tool surface for
+              inspecting app state and workflow signals without publishing secrets or customer data.
+            </p>
+            <p>
+              The goal was practical: make the sales workflow easier to inspect, understand, and
+              eventually connect to coaching or automation layers while respecting boundaries around
+              official systems, private endpoints, and customer information.
+            </p>
+          </div>
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h3 className="text-xl font-semibold text-slate-950">What the tooling covered</h3>
+            <ul className="mt-4 list-disc space-y-3 pl-5 leading-7 text-slate-700">
+              <li>Authenticated session status and safe local configuration checks.</li>
+              <li>SunrunOne app and navigation mapping for workflow discovery.</li>
+              <li>Read-only profile, retail store, and appointment-availability exploration where authorized.</li>
+              <li>CLI commands and MCP-style interfaces for AI-assisted workflow inspection.</li>
+            </ul>
+          </div>
+        </div>
+        <p className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">
+          Public framing note: this was personal, authorized-session workflow tooling. It is not an
+          official Sunrun product, does not publish private endpoints, and does not include customer data.
+        </p>
+      </Section>
+
       <Section eyebrow="Architecture" title="How the workflow turns field activity into sales intelligence.">
         <CaseStudyScreenshot src="/diagrams/solar-tracker-architecture.svg" title="Solar tracker workflow architecture" />
       </Section>

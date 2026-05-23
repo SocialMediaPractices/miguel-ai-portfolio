@@ -15,12 +15,15 @@ export const skills = [
   "CRM thinking",
   "Dashboard design",
   "AI orchestration",
+  "CLI/API workflow tooling",
+  "MCP-style tool surfaces",
   "Local/cloud LLM routing",
   "OpenClaw",
   "Hermes",
   "n8n / Zapier / Make concepts",
   "Business process mapping",
   "LLM integrations",
+  "Authorized-session workflow inspection",
   "Human-in-the-loop workflows",
 ];
 

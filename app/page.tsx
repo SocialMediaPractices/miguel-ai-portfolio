@@ -78,6 +78,10 @@ export default function Home() {
               "AI orchestration",
               "I work with assistant routing, local/cloud LLM choices, and human-in-the-loop task execution.",
             ],
+            [
+              "CLI/API workflow tooling",
+              "I build local command-line and API wrappers that inspect authorized workflows, expose useful signals, and keep sensitive data out of public demos.",
+            ],
           ].map(([title, body]) => (
             <div key={title} className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
               <h3 className="text-xl font-semibold text-slate-950">{title}</h3>
