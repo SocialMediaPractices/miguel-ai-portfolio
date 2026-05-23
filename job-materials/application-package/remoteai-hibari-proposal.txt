@@ -1,0 +1,13 @@
+Hi Hibari Tech team,
+
+I’m interested in the AI Workflow Automation Specialist project because your problem is exactly the kind of practical workflow work I focus on: mapping real operations, removing repetitive steps, and adding AI only where it improves speed, consistency, or customer experience.
+
+My portfolio includes a live Solar Field Sales Intelligence Tracker case study where I turned field-sales activity into structured records, dashboards, status tracking, sentiment/objection categories, and automation-ready data. I also built a local CLI prototype for demo records, summaries, and CSV export, plus read-only workflow tooling around authorized sessions to inspect workflow signals safely without exposing secrets or customer data.
+
+For your Shopify/Klaviyo/Gorgias workflow, I would start by mapping the current post-purchase and support process end to end, then identify which parts should be deterministic automation versus AI-assisted drafting/classification. I’d keep the system measurable around response time, ticket categories, return handling time, and customer satisfaction impact. I would also keep human review where needed so AI improves the team’s workflow without creating risky customer-facing mistakes.
+
+Relevant links:
+Portfolio: https://miguel-ai-portfolio.vercel.app
+Resume: https://miguel-ai-portfolio.vercel.app/resume.pdf
+Case study: https://miguel-ai-portfolio.vercel.app/projects/solar-field-sales-intelligence-tracker
+GitHub: https://github.com/SocialMediaPractices/miguel-ai-portfolio

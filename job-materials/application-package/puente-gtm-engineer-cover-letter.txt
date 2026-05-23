@@ -1,0 +1,15 @@
+Hi Puente Talent Partners team,
+
+I’m applying for the GTM Engineer role because it matches the exact direction I’ve been building toward: practical AI workflow systems that connect sales operations, CRM thinking, outbound processes, dashboards, and automation-ready data.
+
+My strongest proof is my Solar Field Sales Intelligence Tracker, a live portfolio case study built around retail field-sales operations. It captures daily activity, customer engagement, roof conversations, objections, sentiments, leads, appointments, and follow-up status in a structured way. I also built a local CLI prototype for demo records, summaries, and CSV export, plus related read-only workflow tooling around authorized SunrunOne sessions to inspect workflow signals safely without exposing secrets or customer data.
+
+I’m comfortable thinking through funnels, structured data, messaging, experimentation, APIs, webhooks, and AI-assisted tooling. I use AI coding tools including Claude Code and Codex in my workflow, and I’m most interested in roles where the goal is not “AI for show,” but building useful systems that help a lean team move faster and measure what works.
+
+Portfolio: https://miguel-ai-portfolio.vercel.app
+Resume: https://miguel-ai-portfolio.vercel.app/resume.pdf
+Case study: https://miguel-ai-portfolio.vercel.app/projects/solar-field-sales-intelligence-tracker
+GitHub: https://github.com/SocialMediaPractices/miguel-ai-portfolio
+
+Best,
+Miguel Delgadillo
