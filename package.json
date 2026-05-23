@@ -10,7 +10,10 @@
     "tracker": "node cli/solar-tracker.mjs",
     "tracker:seed": "node cli/solar-tracker.mjs seed",
     "tracker:summary": "node cli/solar-tracker.mjs summary --all",
-    "tracker:export": "node cli/solar-tracker.mjs export --out exports/solar-tracker-demo.csv"
+    "tracker:export": "node cli/solar-tracker.mjs export --out exports/solar-tracker-demo.csv",
+    "linkedin": "node cli/linkedin.mjs",
+    "linkedin:all": "node cli/linkedin.mjs all",
+    "linkedin:announce": "node cli/linkedin.mjs announce"
   },
   "dependencies": {
     "next": "16.2.6",

@@ -40,3 +40,6 @@ next-env.d.ts
 
 # local CLI exports
 /exports/*.csv
+
+# generated LinkedIn drafts
+/exports/linkedin/

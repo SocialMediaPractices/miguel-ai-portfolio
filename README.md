@@ -94,6 +94,17 @@ npm run tracker -- export --out exports/solar-tracker-demo.csv
 
 See `cli/README.md` for commands and privacy notes. Use demo data only.
 
+## LinkedIn Drafting CLI
+
+This repo includes a local CLI for generating LinkedIn profile and job-search copy. It does not post externally.
+
+```bash
+npm run linkedin -- headline
+npm run linkedin -- all
+```
+
+Generated drafts are written to `exports/linkedin/`.
+
 ## Deployment
 
 Deploy with Vercel by importing this GitHub repo and using the default Next.js settings.
